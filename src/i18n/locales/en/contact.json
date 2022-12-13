@@ -1,0 +1,11 @@
+{
+  "title": "Contact",
+  "subtitle": "Get in touch",
+  "emailSectionTitle": "E-Mail",
+  "messageSectionTitle": "Facebook",
+  "whatsappSectionTitle": "WhatsApp",
+  "placeholderName": "Full name",
+  "placeholderEmail": "E-Mail",
+  "placeholderMessage": "Message",
+  "sendMessageButton": "Send message"
+}

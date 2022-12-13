@@ -1,0 +1,42 @@
+{
+  "methodical": [
+    {
+      "service": "methodical - lorem, ipsum dolor sit amet consectetur elit"
+    },
+    {
+      "service": "methodical - lorem, ipsum dolor sit amet consectetur elit"
+    },
+    {
+      "service": "methodical - lorem, ipsum dolor sit amet consectetur elit"
+    },
+    {
+      "service": "methodical - lorem, ipsum dolor sit amet consectetur elit"
+    },
+    {
+      "service": "methodical - lorem, ipsum dolor sit amet consectetur elit"
+    },
+    {
+      "service": "methodical - lorem, ipsum dolor sit amet consectetur elit"
+    },
+    {
+      "service": "methodical - lorem, ipsum dolor sit amet consectetur elit"
+    }
+  ],
+  "technical": [
+    {
+      "service": "technical - lorem, ipsum dolor sit amet consectetur elit"
+    },
+    {
+      "service": "technical - lorem, ipsum dolor sit amet consectetur elit"
+    },
+    {
+      "service": "technical - lorem, ipsum dolor sit amet consectetur elit"
+    },
+    {
+      "service": "technical - lorem, ipsum dolor sit amet consectetur elit"
+    },
+    {
+      "service": "technical - lorem, ipsum dolor sit amet consectetur elit"
+    }
+  ]
+}

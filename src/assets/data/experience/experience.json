@@ -1,0 +1,76 @@
+{
+  "frontend": [
+    {
+      "tech": "Angular",
+      "level": "Experienced"
+    },
+    {
+      "tech": "React",
+      "level": "Experienced"
+    },
+    {
+      "tech": "HTML",
+      "level": "Experienced"
+    },
+    {
+      "tech": "CSS",
+      "level": "Intermediate"
+    },
+    {
+      "tech": "JavaScript",
+      "level": "Experienced"
+    },
+    {
+      "tech": "TypeScript",
+      "level": "Experienced"
+    }
+  ],
+  "backend": [
+    {
+      "tech": "Spring Boot",
+      "level": "Experienced"
+    },
+    {
+      "tech": "Yii",
+      "level": "Intermediate"
+    },
+    {
+      "tech": "Java",
+      "level": "Experienced"
+    },
+    {
+      "tech": "PHP",
+      "level": "Intermediate"
+    },
+    {
+      "tech": "MySql",
+      "level": "Intermediate"
+    },
+    {
+      "tech": "MongoDB",
+      "level": "Basic"
+    }
+  ],
+  "infrastructure": [
+    {
+      "tech": "OpenShift",
+      "level": "Experienced"
+    },
+    {
+      "tech": "Jenkins",
+      "level": "Intermediate"
+    },
+    {
+      "tech": "GitLab CI/CD",
+      "level": "Intermediate"
+    },
+    {
+      "tech": "Helm",
+      "level": "Basic"
+    },
+    {
+      "tech": "Ansible",
+      "level": "Experienced"
+    }
+  ]
+}
