@@ -17,7 +17,7 @@ i18n
         about: require("./locales/en/about.json"),
         experience: require("./locales/en/experience.json"),
         services: require("./locales/en/services.json"),
-        portfolio: require("./locales/en/portfolio.json"),
+        projects: require("./locales/en/projects.json"),
         testimonials: require("./locales/en/testimonials.json"),
         contact: require("./locales/en/contact.json"),
       },

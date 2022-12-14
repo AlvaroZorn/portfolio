@@ -1,6 +1,6 @@
 import React from "react";
 import "./services.css";
-import { FiCheck } from "react-icons/fi";
+import { VscCircleFilled } from "react-icons/vsc";
 import { useTranslation } from "react-i18next";
 import services from "../../assets/data/services/services.json";
 
@@ -19,7 +19,7 @@ const Services = () => {
             {services.methodical.map(({ service }) => {
               return (
                 <li>
-                  <FiCheck className="service__list-icon" />
+                  <VscCircleFilled className="service__list-icon" />
                   <p>{service}</p>
                 </li>
               );
@@ -33,7 +33,7 @@ const Services = () => {
             {services.technical.map(({ service }) => {
               return (
                 <li>
-                  <FiCheck className="service__list-icon" />
+                  <VscCircleFilled className="service__list-icon" />
                   <p>{service}</p>
                 </li>
               );

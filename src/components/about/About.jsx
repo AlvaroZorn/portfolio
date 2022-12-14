@@ -5,7 +5,7 @@ import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { useTranslation } from "react-i18next";
 import about from "../../assets/data/about/about.json";
-import ME from "../../assets/me-about.png";
+import ME from "../../assets/imgs/about/me-about.png";
 
 const About = () => {
   const { t } = useTranslation("about");

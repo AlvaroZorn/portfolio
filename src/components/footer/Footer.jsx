@@ -3,13 +3,14 @@ import "./footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
-import footer from "../../assets/data/footer/footer.json";
+import social from "../../assets/data/social/social.json";
+import about from "../../assets/data/about/about.json";
 
 const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer__logo">
-        {footer.name}
+        {about.name}
       </a>
       <ul className="footer__permalinks">
         <li>
@@ -25,7 +26,7 @@ const Footer = () => {
           <a href="#services">Services</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -33,13 +34,13 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href={footer.facebook} target="_blank">
+        <a href={social.facebook} target="_blank">
           <FaFacebookF />
         </a>
-        <a href={footer.instgramm} target="_blank">
+        <a href={social.instgramm} target="_blank">
           <FiInstagram />
         </a>
-        <a href={footer.twitter} target="_blank">
+        <a href={social.twitter} target="_blank">
           <IoLogoTwitter />
         </a>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+import { BsCheckCircleFill } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
 import experience from "../../assets/data/experience/experience.json";
 
@@ -19,7 +19,7 @@ const Experience = () => {
             {experience.frontend.map(({ tech, level }) => {
               return (
                 <article className="experience__details">
-                  <BsPatchCheckFill className="experience__details-icon" />
+                  <BsCheckCircleFill className="experience__details-icon" />
                   <div>
                     <h4>{tech}</h4>
                     <small className="text-light">{level}</small>
@@ -36,7 +36,7 @@ const Experience = () => {
             {experience.backend.map(({ tech, level }) => {
               return (
                 <article className="experience__details">
-                  <BsPatchCheckFill className="experience__details-icon" />
+                  <BsCheckCircleFill className="experience__details-icon" />
                   <div>
                     <h4>{tech}</h4>
                     <small className="text-light">{level}</small>
@@ -53,7 +53,7 @@ const Experience = () => {
             {experience.infrastructure.map(({ tech, level }) => {
               return (
                 <article className="experience__details">
-                  <BsPatchCheckFill className="experience__details-icon" />
+                  <BsCheckCircleFill className="experience__details-icon" />
                   <div>
                     <h4>{tech}</h4>
                     <small className="text-light">{level}</small>

@@ -2,7 +2,8 @@ import React from "react";
 import "./header.css";
 import { HiOutlineChevronDown } from "react-icons/hi";
 import { useTranslation } from "react-i18next";
-import ME from "../../assets/me.png";
+import ME from "../../assets/imgs/header/me.png";
+import about from "../../assets/data/about/about.json";
 import CTA from "./CTA";
 import HeaderSocial from "./HeaderSocial";
 
@@ -13,7 +14,7 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <h5>{t("greeting")}</h5>
-        <h1>{t("name")}</h1>
+        <h1>{about.name}</h1>
         <h5 className="text-light">{t("title")}</h5>
         <CTA />
         <HeaderSocial />

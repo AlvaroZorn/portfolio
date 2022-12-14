@@ -19,6 +19,7 @@
 }
 
 .about__me-image {
+  image-rendering: optimizeQuality;
   border-radius: 2rem;
   width: 100%;
   overflow: hidden;

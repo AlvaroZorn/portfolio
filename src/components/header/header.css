@@ -42,6 +42,7 @@ header {
 
 /* ============= ME ============= */
 .me {
+  image-rendering: optimizeQuality;
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
   height: 25rem;
