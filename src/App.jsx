@@ -3,6 +3,7 @@ import Favicon from "react-favicon";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
+import Education from "./components/education/Education";
 import Experience from "./components/experience/Experience";
 import Services from "./components/services/Services";
 import Projects from "./components/projects/Projects";
@@ -17,8 +18,8 @@ const App = () => {
       <Header />
       <Nav />
       <About />
+      <Education />
       <Experience />
-      <Services />
       <Projects />
       <Contact />
       <Footer />

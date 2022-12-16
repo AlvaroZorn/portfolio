@@ -52,7 +52,7 @@
   color: var(--color-light);
 }
 
-.about__card h5 {
+.about__card h4 {
   color: var(--color-white);
 }
 
@@ -83,6 +83,10 @@
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+}
+
+.display-linebreak {
+  white-space: pre-line;
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */

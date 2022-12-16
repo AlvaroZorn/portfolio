@@ -26,7 +26,7 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>{t("titleSection_1")}</h5>
+              <h4>{t("titleSection_1")}</h4>
               <small>
                 {new Date().getFullYear() - 2018}+ {t("subtitleSection_1")}{" "}
               </small>
@@ -34,7 +34,7 @@ const About = () => {
 
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>{t("titleSection_2")}</h5>
+              <h4>{t("titleSection_2")}</h4>
               <small>
                 {about.clients} {t("subtitleSection_2")}
               </small>
@@ -42,14 +42,14 @@ const About = () => {
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>{t("titleSection_3")}</h5>
+              <h4>{t("titleSection_3")}</h4>
               <small>
                 {about.projects} {t("subtitleSection_3")}
               </small>
             </article>
           </div>
 
-          <p>{t("description")}</p>
+          <p className="display-linebreak">{t("description")}</p>
 
           <a href="#contact" className="btn btn-primary">
             {t("contactButton")}

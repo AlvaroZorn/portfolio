@@ -1,10 +1,14 @@
-.experience__container {
+.education__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
-.experience__container > div {
+.education__container > div:first-child {
+  grid-column: 1 / 3;
+}
+
+.education__container > div {
   background: var(--color-bg-variant);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
@@ -12,74 +16,78 @@
   transition: var(--transition);
 }
 
-.experience__container > div:hover {
+.education__container > div:hover {
   background: var(--color-primary-variant);
   cursor: default;
 }
 
-.experience__container > div:hover h4 {
+.education__container > div:hover h4 {
   color: var(--color-white);
 }
 
-.experience__container > div:hover small {
+.education__container > div:hover small {
   color: var(--color-white);
 }
 
-.experience__container > div:hover svg {
+.education__container > div:hover svg {
   color: var(--color-white);
 }
 
-.experience__container > div h3 {
+.education__container > div h3 {
   text-align: center;
   margin-top: -1rem;
   margin-bottom: 2rem;
   color: var(--color-white);
 }
 
-.experience__container > div h4 {
+.education__container > div h4 {
   color: var(--color-light);
 }
 
-.experience__content {
+.education__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   row-gap: 1rem;
 }
 
-.experience__details {
+.education__details {
   display: flex;
   gap: 1rem;
 }
 
-.experience__details-icon {
+.education__details-icon {
   margin-top: 6px;
   color: var(--color-primary);
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
 @media screen and (max-width: 1024px) {
-  .experience__container {
+  .education__container {
     grid-template-columns: 1fr;
   }
 
-  .experience__container > div {
+  .education__container > div:first-child {
+    grid-column: 1;
+  }
+
+  .education__container > div {
     width: 80%;
     padding: 2rem;
     margin: 0 auto;
   }
 
-  .experience__content {
+  .education__content {
     padding: 1rem;
   }
 }
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
 @media screen and (max-width: 600px) {
-  .experience__container {
+  .education__container {
     gap: 1rem;
   }
 
-  .experience__container > div {
+  .education__container > div {
     width: 100%;
     padding: 2rem 1rem;
   }

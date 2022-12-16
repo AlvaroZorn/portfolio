@@ -1,0 +1,78 @@
+{
+  "school": [
+    {
+      "title": "M. Sc. Wirtschaftsinformatik - IT-Management",
+      "year": 2020
+    },
+    {
+      "title": "B. Sc. Wirtschaftsinformatik - Application Management",
+      "year": 2018
+    },
+    {
+      "title": "Fachhochschulreife mit Schwerpunkt WIrtschaftsinformatik",
+      "year": 2015
+    }
+  ],
+  "training": [
+    {
+      "title": "Spring: The Certification Class",
+      "year": 2021
+    },
+    {
+      "title": "Microservices – Infrastruktur mit Spring Cloud",
+      "year": 2021
+    },
+    {
+      "title": "Software Craftsmanship und Clean Code",
+      "year": 2020
+    },
+    {
+      "title": "Java - Fortgeschrittene Programmiertechniken ",
+      "year": 2019
+    },
+    {
+      "title": "Verhandeln im Projekt",
+      "year": 2019
+    },
+    {
+      "title": "Java Enterprise Edition – Foundation",
+      "year": 2019
+    },
+    {
+      "title": "Java für Programmierer",
+      "year": 2017
+    }
+  ],
+  "certification": [
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "year": 2022,
+      "link": ""
+    },
+    {
+      "title": "iSAQB Certified Professional for Software Architecture Foundation Level",
+      "year": 2021,
+      "link": ""
+    },
+    {
+      "title": "IREB Certified Professional for Requirements Engineering Foundation Level",
+      "year": 2020,
+      "link": ""
+    },
+    {
+      "title": "iSTQB Certified Tester Foundation Level",
+      "year": 2020,
+      "link": ""
+    },
+    {
+      "title": "Certified Scrum Master",
+      "year": 2019,
+      "link": ""
+    },
+    {
+      "title": "ITIL Foundation Certificate",
+      "year": 2017,
+      "link": ""
+    }
+  ]
+}

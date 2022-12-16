@@ -36,7 +36,8 @@
 }
 
 .contact__option:hover a:hover {
-  color: var(--color-bg);
+  font-size: 1.2rem;
+  color: var(--color-white);
 }
 
 .contact__option-icon {

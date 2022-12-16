@@ -2,10 +2,10 @@ import React from "react";
 import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
-import { ImBooks } from "react-icons/im";
-import { RiServiceLine } from "react-icons/ri";
+import { MdOutlineSchool } from "react-icons/md";
+import { TbCertificate } from "react-icons/tb";
 import { BiMessageSquareDetail } from "react-icons/bi";
-import { CgWebsite } from "react-icons/cg";
+import { AiOutlineProject } from "react-icons/ai";
 import { useState } from "react";
 
 const Nav = () => {
@@ -27,25 +27,26 @@ const Nav = () => {
         <AiOutlineUser />
       </a>
       <a
+        href="#education"
+        onClick={() => setActiveNav("#education")}
+        className={activeNav === "#education" ? "active" : ""}
+      >
+        <MdOutlineSchool />
+      </a>
+      <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
-        <ImBooks />
+        <TbCertificate />
       </a>
-      <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
-      >
-        <RiServiceLine />
-      </a>
+
       <a
         href="#projects"
         onClick={() => setActiveNav("#projects")}
         className={activeNav === "#projects" ? "active" : ""}
       >
-        <CgWebsite />
+        <AiOutlineProject />
       </a>
       <a
         href="#contact"

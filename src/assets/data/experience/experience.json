@@ -1,76 +1,80 @@
 {
   "frontend": [
     {
-      "tech": "Angular",
-      "level": "Experienced"
-    },
-    {
-      "tech": "React",
-      "level": "Experienced"
-    },
-    {
       "tech": "HTML",
-      "level": "Experienced"
+      "level": 100
     },
     {
       "tech": "CSS",
-      "level": "Intermediate"
+      "level": 60
+    },
+    {
+      "tech": "React",
+      "level": 80
+    },
+    {
+      "tech": "Angular",
+      "level": 60
     },
     {
       "tech": "JavaScript",
-      "level": "Experienced"
+      "level": 60
     },
     {
       "tech": "TypeScript",
-      "level": "Experienced"
+      "level": 60
     }
   ],
   "backend": [
     {
       "tech": "Spring Boot",
-      "level": "Experienced"
+      "level": 100
     },
     {
       "tech": "Yii",
-      "level": "Intermediate"
+      "level": 60
     },
     {
       "tech": "Java",
-      "level": "Experienced"
+      "level": 100
     },
     {
       "tech": "PHP",
-      "level": "Intermediate"
+      "level": 60
     },
     {
-      "tech": "MySql",
-      "level": "Intermediate"
+      "tech": "SQL",
+      "level": 80
     },
     {
-      "tech": "MongoDB",
-      "level": "Basic"
+      "tech": "NoSQL",
+      "level": 40
     }
   ],
   "infrastructure": [
     {
-      "tech": "OpenShift",
-      "level": "Experienced"
-    },
-    {
       "tech": "Jenkins",
-      "level": "Intermediate"
+      "level": 80
     },
     {
       "tech": "GitLab CI/CD",
-      "level": "Intermediate"
+      "level": 80
+    },
+    {
+      "tech": "OpenShift",
+      "level": 80
     },
     {
       "tech": "Helm",
-      "level": "Basic"
+      "level": 60
     },
     {
       "tech": "Ansible",
-      "level": "Experienced"
+      "level": 60
+    },
+    {
+      "tech": "AWS",
+      "level": 40
     }
   ]
 }
