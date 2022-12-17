@@ -2,42 +2,42 @@
   {
     "id": 6,
     "image": "code_5.jpg",
-    "title": "Development of own portfolio web application",
+    "title": "Entwicklung einer eigenen Portfolio-Webanwendung",
     "github": "https://github.com/AlvaroZorn/react-portfolio-website",
     "demo": "https://alvarozorn.de"
   },
   {
     "id": 5,
     "image": "code_4.jpg",
-    "title": "Development and further development of the IT landscape of a network operator",
+    "title": "Neu- und Weiterentwicklung der internen IT-Landschaft eines Netzbetreibers",
     "github": null,
     "demo": null
   },
   {
     "id": 4,
     "image": "code_3.jpg",
-    "title": "Development of a PDSG-compliant verification and authentication tool for a health insurance company",
+    "title": "Entwicklung eines PDSG-konformen Verifizierungs- und Authentifizierungstools für eine Krankenkasse",
     "github": null,
     "demo": null
   },
   {
     "id": 3,
     "image": "code_1.png",
-    "title": "Further development of productive insurance software for an IT service provider",
+    "title": "Weiterentwicklung einer produktiven Versicherungssoftware für einen IT-Dienstleisters",
     "github": null,
     "demo": null
   },
   {
     "id": 2,
     "image": "code_6.jpg",
-    "title": "Development of a personal database based on SuiteCRM for a media company",
+    "title": "Entwicklung einer Personendatenbank basierend auf SuiteCRM für ein Medienunternehmen",
     "github": null,
     "demo": null
   },
   {
     "id": 1,
     "image": "code_2.jpg",
-    "title": "Development of web applications as a replacement for IBM Notes applications for a media company",
+    "title": "Entwicklung von Webanwendungen für die Ablösung von IBM Notes-Anwendungen für ein Medienunternehmen",
     "github": null,
     "demo": null
   }
