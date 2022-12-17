@@ -31,6 +31,6 @@
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
 @media screen and (max-width: 600px) {
   .progress {
-    width: 5rem;
+    width: 6rem;
   }
 }

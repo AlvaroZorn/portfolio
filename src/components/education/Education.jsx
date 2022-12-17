@@ -20,7 +20,7 @@ const Education = () => {
               return (
                 <article className="education__details">
                   <MdAccessTimeFilled className="education__details-icon" />
-                  <div>
+                  <div className="education__details-text">
                     <h4>{title}</h4>
                     <small className="text-light">{year}</small>
                   </div>
@@ -37,7 +37,7 @@ const Education = () => {
               return (
                 <article className="education__details">
                   <MdAccessTimeFilled className="education__details-icon" />
-                  <div>
+                  <div className="education__details-text">
                     <h4>{title}</h4>
                     <small className="text-light">{year}</small>
                   </div>
@@ -54,7 +54,7 @@ const Education = () => {
               return (
                 <article className="education__details">
                   <MdAccessTimeFilled className="education__details-icon" />
-                  <div>
+                  <div className="education__details-text">
                     <h4>{title}</h4>
                     <small className="text-light">{year}</small>
                   </div>

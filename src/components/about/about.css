@@ -48,6 +48,9 @@
 }
 
 .about__card small {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
   font-size: 0.7rem;
   color: var(--color-light);
 }

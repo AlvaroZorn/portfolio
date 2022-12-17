@@ -21,7 +21,7 @@ const Experience = () => {
               return (
                 <article className="experience__details">
                   <BsCheckCircleFill className="experience__details-icon" />
-                  <div>
+                  <div className="experience__details-text">
                     <h4>{tech}</h4>
                     <Progress done={level} />
                   </div>
@@ -38,7 +38,7 @@ const Experience = () => {
               return (
                 <article className="experience__details">
                   <BsCheckCircleFill className="experience__details-icon" />
-                  <div>
+                  <div className="experience__details-text">
                     <h4>{tech}</h4>
                     <Progress done={level} />
                   </div>
@@ -55,7 +55,7 @@ const Experience = () => {
               return (
                 <article className="experience__details">
                   <BsCheckCircleFill className="experience__details-icon" />
-                  <div>
+                  <div className="experience__details-text">
                     <h4>{tech}</h4>
                     <Progress done={level} />
                   </div>

@@ -58,4 +58,8 @@
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+
+  .projects__item h3 {
+    height: 5.5rem;
+  }
 }

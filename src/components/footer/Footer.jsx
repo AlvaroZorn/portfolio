@@ -3,10 +3,13 @@ import "./footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
+import { useTranslation } from "react-i18next";
 import social from "../../assets/data/social/social.json";
 import about from "../../assets/data/about/about.json";
 
 const Footer = () => {
+  const { t } = useTranslation("footer");
+
   return (
     <footer>
       <a href="#" className="footer__logo">
@@ -14,22 +17,22 @@ const Footer = () => {
       </a>
       <ul className="footer__permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="#">{t("section1")}</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">{t("section2")}</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#education">{t("section3")}</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#experience">{t("section4")}</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects">{t("section5")}</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">{t("section6")}</a>
         </li>
       </ul>
 
@@ -46,7 +49,9 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyrights">
-        <small>&copy; Alvaro Zorn. All rights served</small>
+        <small>
+          &copy; {about.name}. {t("copyright")}
+        </small>
       </div>
     </footer>
   );

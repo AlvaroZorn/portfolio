@@ -56,8 +56,13 @@
 }
 
 .education__details-icon {
+  position: absolute;
   margin-top: 6px;
   color: var(--color-primary);
+}
+
+.education__details-text {
+  margin-left: 2rem;
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
