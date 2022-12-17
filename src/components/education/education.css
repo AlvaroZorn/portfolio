@@ -56,6 +56,8 @@
 }
 
 .education__details-icon {
+  height: 1.2rem;
+  width: 1.2rem;
   position: absolute;
   margin-top: 6px;
   color: var(--color-primary);
@@ -63,6 +65,29 @@
 
 .education__details-text {
   margin-left: 2rem;
+}
+
+.education__details-title {
+  display: inline;
+}
+
+.education__details-link {
+  position: absolute;
+  margin-left: 0.25rem;
+  margin-top: 0.1rem;
+}
+
+.education__container > div:hover a svg {
+  color: var(--color-primary);
+}
+
+.education__container > div:hover a svg:hover {
+  font-size: 1.2rem;
+  color: var(--color-white);
+}
+
+small {
+  display: block;
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
