@@ -29,6 +29,9 @@
   font-size: large;
   height: 5rem;
   margin: 1.2rem 0 2rem;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
 
 .projects__item-cta {
