@@ -1,6 +1,7 @@
 # TODO
 
+- Mehr anzeigen
 - Lebenslauf aktualisieren
-- Projekte PopUp für erweiterte Informationen
+- PopUp für erweiterte Informationen (mehr anzeigen)
 - Übersetzung auf Englisch + Schalter
 - Daten in JSON-File übersetzen

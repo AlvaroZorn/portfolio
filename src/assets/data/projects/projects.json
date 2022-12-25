@@ -1,43 +1,49 @@
 [
   {
     "id": 6,
-    "image": "code_5.jpg",
+    "image": "react.svg",
     "title": "Entwicklung einer eigenen Portfolio-Webanwendung",
+    "description": "test",
     "github": "https://github.com/AlvaroZorn/react-portfolio-website",
     "demo": "https://alvarozorn.de"
   },
   {
     "id": 5,
-    "image": "code_4.jpg",
+    "image": "spring-boot.svg",
     "title": "Neu- und Weiterentwicklung der internen IT-Landschaft eines Netzbetreibers",
+    "description": null,
     "github": null,
     "demo": null
   },
   {
     "id": 4,
-    "image": "code_3.jpg",
+    "image": "spring-boot.svg",
     "title": "Entwicklung eines PDSG-konformen Verifizierungs- und Authentifizierungstools für eine Krankenkasse",
+    "description": null,
     "github": null,
     "demo": null
   },
   {
     "id": 3,
-    "image": "code_1.png",
+    "image": "spring-boot.svg",
     "title": "Weiterentwicklung einer produktiven Versicherungssoftware für einen IT-Dienstleisters",
+    "description": null,
     "github": null,
     "demo": null
   },
   {
     "id": 2,
-    "image": "code_6.jpg",
+    "image": "php.svg",
     "title": "Entwicklung einer Personendatenbank basierend auf SuiteCRM für ein Medienunternehmen",
+    "description": null,
     "github": null,
     "demo": null
   },
   {
     "id": 1,
-    "image": "code_2.jpg",
+    "image": "php.svg",
     "title": "Entwicklung von Webanwendungen für die Ablösung von IBM Notes-Anwendungen für ein Medienunternehmen",
+    "description": null,
     "github": null,
     "demo": null
   }

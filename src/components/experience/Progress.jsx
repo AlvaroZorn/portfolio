@@ -1,5 +1,5 @@
 import React from "react";
-import "./progress.css";
+import "./experience.css";
 
 const Progress = ({ done }) => {
   // create an empty object to use later see in style

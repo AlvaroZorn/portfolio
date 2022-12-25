@@ -3,7 +3,7 @@ import "./experience.css";
 import { BsCheckCircleFill } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
 import experience from "../../assets/data/experience/experience.json";
-import Progress from "../progress/Progress";
+import Progress from "./Progress";
 
 const Experience = () => {
   const { t } = useTranslation("experience");
