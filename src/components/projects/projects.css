@@ -17,6 +17,10 @@
   cursor: default;
 }
 
+.projects__item:hover h3 {
+  color: var(--color-white);
+}
+
 .projects__item-image {
   display: flex;
   justify-content: center;
@@ -32,7 +36,7 @@
 }
 
 .projects__item h3 {
-  color: var(--color-white);
+  color: var(--color-light);
   font-size: large;
 }
 
@@ -41,30 +45,26 @@
 }
 
 .projects__item-icon svg {
+  transform: rotate(45deg);
+
   color: var(--color-primary);
+  font-size: 1.5rem;
   display: flex;
-  margin-top: -6.3rem;
+  margin-top: -6.5rem;
   margin-left: -1rem;
-  width: 1.3rem;
   height: auto;
 }
 
 .projects__item-modal {
-  display: grid;
-  grid-template-columns: 1fr;
-  background: var(--color-bg-variant);
+  background: rgb(48, 46, 46);
   padding: 1.2rem;
   border-radius: 2rem;
-  border: 1px solid var(--color-primary-variant);
-  margin: 1.1rem 1.1rem 1.1rem 1.1rem;
+  border: 1px solid transparent;
 }
 
 .projects__item-modal h3 {
   color: var(--color-white);
   font-size: large;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
 }
 
 .projects__item-modal-info {
@@ -80,13 +80,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.projects__btn-disable {
-  pointer-events: none;
-  background: rgb(48, 46, 46);
-  color: var(--color-white);
-  cursor: default;
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */

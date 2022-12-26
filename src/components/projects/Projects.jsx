@@ -3,7 +3,7 @@ import "./projects.css";
 import projects from "../../assets/data/projects/projects.json";
 import Popup from "reactjs-popup";
 import { useTranslation } from "react-i18next";
-import { CgArrowsExpandUpRight } from "react-icons/cg";
+import { IoIosArrowUp } from "react-icons/io";
 
 const Projects = () => {
   const { t } = useTranslation("projects");
@@ -15,11 +15,6 @@ const Projects = () => {
 
       <div className="container projects__container">
         {projects.map(({ id, image, title, github, demo }) => {
-          const githubDisabled =
-            github === null ? "btn projects__btn-disable" : "btn";
-          const demoDisabled =
-            demo === null ? "btn projects__btn-disable" : "btn btn-primary";
-
           return (
             <Popup
               trigger={
@@ -31,7 +26,7 @@ const Projects = () => {
                     />
                     <div>
                       <a className="projects__item-icon">
-                        <CgArrowsExpandUpRight />
+                        <IoIosArrowUp />
                       </a>
                     </div>
                   </div>
@@ -51,12 +46,16 @@ const Projects = () => {
                   <small>Dies sind die Technologien</small>
                 </div>
                 <div className="projects__item-modal-cta">
-                  <a href={github} className={githubDisabled} target="_blank">
-                    {t("repoButton")}
-                  </a>
-                  <a href={demo} className={demoDisabled} target="_blank">
-                    {t("demoButton")}
-                  </a>
+                  {github != null ? (
+                    <a href={github} className="btn" target="_blank">
+                      {t("repoButton")}
+                    </a>
+                  ) : null}
+                  {demo != null ? (
+                    <a href={demo} className="btn btn-primary" target="_blank">
+                      {t("demoButton")}
+                    </a>
+                  ) : null}
                 </div>
               </article>
             </Popup>

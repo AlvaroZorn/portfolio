@@ -33,7 +33,7 @@
   },
   {
     "id": 2,
-    "image": "php.svg",
+    "image": "SuiteCRM.png",
     "title": "Entwicklung einer Personendatenbank basierend auf SuiteCRM für ein Medienunternehmen",
     "description": null,
     "github": null,
@@ -41,7 +41,7 @@
   },
   {
     "id": 1,
-    "image": "php.svg",
+    "image": "yii.svg",
     "title": "Entwicklung von Webanwendungen für die Ablösung von IBM Notes-Anwendungen für ein Medienunternehmen",
     "description": null,
     "github": null,

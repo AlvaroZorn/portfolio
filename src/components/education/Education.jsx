@@ -56,18 +56,19 @@ const Education = () => {
                 <article className="education__details">
                   <MdAccessTimeFilled className="education__details-icon" />
                   <div className="education__details-text">
-                    <h4 className="education__details-title">{title}</h4>
+                    <h4 className="education__details-title">
+                      {title}
 
-                    {link != null ? (
-                      <a
-                        className="education__details-link"
-                        href={link}
-                        target="_blank"
-                      >
-                        <TbExternalLink />
-                      </a>
-                    ) : null}
-
+                      {link != null ? (
+                        <a
+                          className="education__details-link"
+                          href={link}
+                          target="_blank"
+                        >
+                          <TbExternalLink />
+                        </a>
+                      ) : null}
+                    </h4>
                     <small className="text-light">{year}</small>
                   </div>
                 </article>
