@@ -57,7 +57,7 @@ const Projects = () => {
                   </div>
                   <div className="projects__item-modal-cta">
                     {github != null ? (
-                      <a href={github} className="btn" target="_blank" rel="">
+                      <a href={github} className="btn" target="_blank">
                         {t("repoButton")}
                       </a>
                     ) : null}
