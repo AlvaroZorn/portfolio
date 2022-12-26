@@ -91,6 +91,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
+
+  .projects__item-modal {
+    margin: 0 5% 0 5%;
+  }
 }
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
