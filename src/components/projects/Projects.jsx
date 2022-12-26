@@ -14,53 +14,68 @@ const Projects = () => {
       <h2>{t("title")}</h2>
 
       <div className="container projects__container">
-        {projects.map(({ id, image, title, github, demo }) => {
-          return (
-            <Popup
-              trigger={
-                <article key={id} className="projects__item">
-                  <div className="projects__item-image">
-                    <img
-                      src={require(`../../assets/imgs/projects/${image}`)}
-                      alt=""
-                    />
-                    <div>
-                      <image className="projects__item-icon">
-                        <IoIosArrowUp />
-                      </image>
+        {projects.map(
+          ({
+            id,
+            image,
+            title,
+            description,
+            role,
+            technology,
+            github,
+            demo,
+          }) => {
+            return (
+              <Popup
+                trigger={
+                  <article key={id} className="projects__item">
+                    <div className="projects__item-image">
+                      <img
+                        src={require(`../../assets/imgs/projects/${image}`)}
+                        alt=""
+                      />
+                      <div>
+                        <image className="projects__item-icon">
+                          <IoIosArrowUp />
+                        </image>
+                      </div>
                     </div>
-                  </div>
+                    <h3>{title}</h3>
+                  </article>
+                }
+                modal
+              >
+                <article className="projects__item-modal">
                   <h3>{title}</h3>
+                  <div className="projects__item-modal-info">
+                    <h4>Beschreibung</h4>
+                    <small>{description}</small>
+                    <h4>Rolle</h4>
+                    <small>{role}</small>
+                    <h4>Technolgien</h4>
+                    <small>{technology}</small>
+                  </div>
+                  <div className="projects__item-modal-cta">
+                    {github != null ? (
+                      <a href={github} className="btn" target="_blank" rel="">
+                        {t("repoButton")}
+                      </a>
+                    ) : null}
+                    {demo != null ? (
+                      <a
+                        href={demo}
+                        className="btn btn-primary"
+                        target="_blank"
+                      >
+                        {t("demoButton")}
+                      </a>
+                    ) : null}
+                  </div>
                 </article>
-              }
-              modal
-            >
-              <article className="projects__item-modal">
-                <h3>{title}</h3>
-                <div className="projects__item-modal-info">
-                  <h4>Beschreibung</h4>
-                  <small>Dies ist eine Beschreibung</small>
-                  <h4>Rolle</h4>
-                  <small>Dies ist meine Rolle</small>
-                  <h4>Technolgien</h4>
-                  <small>Dies sind die Technologien</small>
-                </div>
-                <div className="projects__item-modal-cta">
-                  {github != null ? (
-                    <a href={github} className="btn" target="_blank" rel="">
-                      {t("repoButton")}
-                    </a>
-                  ) : null}
-                  {demo != null ? (
-                    <a href={demo} className="btn btn-primary" target="_blank">
-                      {t("demoButton")}
-                    </a>
-                  ) : null}
-                </div>
-              </article>
-            </Popup>
-          );
-        })}
+              </Popup>
+            );
+          }
+        )}
       </div>
     </section>
   );

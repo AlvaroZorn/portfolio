@@ -57,10 +57,14 @@ const Education = () => {
                   <MdAccessTimeFilled className="education__details-icon" />
                   <div className="education__details-text">
                     <h4 className="education__details-title">
-                      <a href={link} target="_blank">
-                        {title}
-                        {link != null ? <TbExternalLink /> : null}
-                      </a>
+                      {link != null ? (
+                        <a href={link} target="_blank">
+                          {title}
+                          <TbExternalLink />
+                        </a>
+                      ) : (
+                        title
+                      )}
                     </h4>
                     <small className="text-light">{year}</small>
                   </div>

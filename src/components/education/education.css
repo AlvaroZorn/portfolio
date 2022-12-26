@@ -46,6 +46,10 @@
   color: var(--color-white);
 }
 
+.education__container > div:hover a:hover {
+  text-decoration-line: underline;
+}
+
 .education__container > div h3 {
   text-align: center;
   margin-top: -1rem;

@@ -3,7 +3,9 @@
     "id": 6,
     "image": "react.svg",
     "title": "Entwicklung einer eigenen Portfolio-Webanwendung",
-    "description": "test",
+    "description": "not found",
+    "role": "not found",
+    "technology": "not found",
     "github": "https://github.com/AlvaroZorn/react-portfolio-website",
     "demo": "https://alvarozorn.de"
   },
@@ -11,7 +13,9 @@
     "id": 5,
     "image": "spring-boot.svg",
     "title": "Neu- und Weiterentwicklung der internen IT-Landschaft eines Netzbetreibers",
-    "description": null,
+    "description": "not found",
+    "role": "not found",
+    "technology": "not found",
     "github": null,
     "demo": null
   },
@@ -19,7 +23,9 @@
     "id": 4,
     "image": "spring-boot.svg",
     "title": "Entwicklung eines PDSG-konformen Verifizierungs- und Authentifizierungstools für eine Krankenkasse",
-    "description": null,
+    "description": "not found",
+    "role": "not found",
+    "technology": "not found",
     "github": null,
     "demo": null
   },
@@ -27,7 +33,9 @@
     "id": 3,
     "image": "spring-boot.svg",
     "title": "Weiterentwicklung einer produktiven Versicherungssoftware für einen IT-Dienstleisters",
-    "description": null,
+    "description": "not found",
+    "role": "not found",
+    "technology": "not found",
     "github": null,
     "demo": null
   },
@@ -35,7 +43,9 @@
     "id": 2,
     "image": "SuiteCRM.png",
     "title": "Entwicklung einer Personendatenbank basierend auf SuiteCRM für ein Medienunternehmen",
-    "description": null,
+    "description": "not found",
+    "role": "not found",
+    "technology": "not found",
     "github": null,
     "demo": null
   },
@@ -43,7 +53,9 @@
     "id": 1,
     "image": "yii.svg",
     "title": "Entwicklung von Webanwendungen für die Ablösung von IBM Notes-Anwendungen für ein Medienunternehmen",
-    "description": null,
+    "description": "not found",
+    "role": "not found",
+    "technology": "not found",
     "github": null,
     "demo": null
   }

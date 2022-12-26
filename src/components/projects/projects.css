@@ -49,6 +49,7 @@
 }
 
 .projects__item-icon svg {
+  display: block;
   transform: rotate(45deg);
   color: var(--color-primary);
   font-size: 1.5rem;
