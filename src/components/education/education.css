@@ -16,6 +16,15 @@
   transition: var(--transition);
 }
 
+.education__container a {
+  color: var(--color-light);
+}
+
+.education__container a svg {
+  margin-left: 0.2rem;
+  margin-bottom: -0.1rem;
+}
+
 .education__container > div:hover {
   background: var(--color-primary-variant);
   cursor: default;
@@ -26,6 +35,10 @@
 }
 
 .education__container > div:hover small {
+  color: var(--color-white);
+}
+
+.education__container > div:hover a {
   color: var(--color-white);
 }
 
@@ -56,33 +69,18 @@
 }
 
 .education__details-icon {
+  color: var(--color-primary);
   height: 1.2rem;
   width: 1.2rem;
   position: absolute;
   margin-top: 6px;
-  color: var(--color-primary);
 }
 
 .education__details-text {
   margin-left: 2rem;
 }
 
-.education__details-title {
-  display: inline;
-}
-
-.education__details-link {
-  position: absolute;
-  margin-left: 0.25rem;
-  margin-top: 0.1rem;
-}
-
 .education__container > div:hover a svg {
-  color: var(--color-primary);
-}
-
-.education__container > div:hover a svg:hover {
-  font-size: 1.2rem;
   color: var(--color-white);
 }
 

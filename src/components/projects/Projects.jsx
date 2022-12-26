@@ -25,9 +25,9 @@ const Projects = () => {
                       alt=""
                     />
                     <div>
-                      <a className="projects__item-icon">
+                      <image className="projects__item-icon">
                         <IoIosArrowUp />
-                      </a>
+                      </image>
                     </div>
                   </div>
                   <h3>{title}</h3>
@@ -47,7 +47,7 @@ const Projects = () => {
                 </div>
                 <div className="projects__item-modal-cta">
                   {github != null ? (
-                    <a href={github} className="btn" target="_blank">
+                    <a href={github} className="btn" target="_blank" rel="">
                       {t("repoButton")}
                     </a>
                   ) : null}

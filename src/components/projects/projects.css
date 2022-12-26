@@ -17,6 +17,10 @@
   cursor: default;
 }
 
+.projects__item:hover svg {
+  color: var(--color-white);
+}
+
 .projects__item:hover h3 {
   color: var(--color-white);
 }
@@ -46,7 +50,6 @@
 
 .projects__item-icon svg {
   transform: rotate(45deg);
-
   color: var(--color-primary);
   font-size: 1.5rem;
   display: flex;
