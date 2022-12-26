@@ -52,7 +52,6 @@
   transform: rotate(45deg);
   color: var(--color-primary);
   font-size: 1.5rem;
-  display: flex;
   margin-top: -6.5rem;
   margin-left: -1rem;
   height: auto;
