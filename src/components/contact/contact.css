@@ -10,9 +10,6 @@
   flex-direction: column;
   gap: 1.2rem;
 }
-.contact__options h4 {
-  color: var(--color-white);
-}
 
 .contact__option {
   background: var(--color-bg-variant);
@@ -27,11 +24,9 @@
   background: var(--color-primary-variant);
 }
 
+.contact__options h4,
+.contact__option:hover h5,
 .contact__option:hover svg {
-  color: var(--color-white);
-}
-
-.contact__option:hover h5 {
   color: var(--color-white);
 }
 

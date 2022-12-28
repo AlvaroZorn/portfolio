@@ -64,10 +64,7 @@
   cursor: default;
 }
 
-.about__card:hover small {
-  color: var(--color-white);
-}
-
+.about__card:hover small,
 .about__card:hover svg {
   color: var(--color-white);
 }
@@ -102,10 +99,6 @@
   .about__me {
     width: 50%;
     margin: 2rem auto 4rem;
-  }
-
-  .about__content {
-    text-align: center;
   }
 
   .about__content {

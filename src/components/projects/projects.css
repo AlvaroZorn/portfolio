@@ -17,11 +17,8 @@
   cursor: default;
 }
 
+.projects__item:hover h3,
 .projects__item:hover svg {
-  color: var(--color-white);
-}
-
-.projects__item:hover h3 {
   color: var(--color-white);
 }
 

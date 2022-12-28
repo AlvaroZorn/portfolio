@@ -17,15 +17,9 @@
   cursor: default;
 }
 
+.experience__container > div:hover small,
+.experience__container > div:hover svg,
 .experience__container > div:hover h4 {
-  color: var(--color-white);
-}
-
-.experience__container > div:hover small {
-  color: var(--color-white);
-}
-
-.experience__container > div:hover svg {
   color: var(--color-white);
 }
 
