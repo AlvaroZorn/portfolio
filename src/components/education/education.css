@@ -30,19 +30,11 @@
   cursor: default;
 }
 
-.education__container > div:hover h4 {
-  color: var(--color-white);
-}
-
-.education__container > div:hover small {
-  color: var(--color-white);
-}
-
-.education__container > div:hover a {
-  color: var(--color-white);
-}
-
-.education__container > div:hover svg {
+.education__container > div:hover h4,
+.education__container > div:hover small,
+.education__container > div:hover a,
+.education__container > div:hover svg,
+.education__container > div:hover a svg {
   color: var(--color-white);
 }
 
@@ -82,10 +74,6 @@
 
 .education__details-text {
   margin-left: 2rem;
-}
-
-.education__container > div:hover a svg {
-  color: var(--color-white);
 }
 
 small {
