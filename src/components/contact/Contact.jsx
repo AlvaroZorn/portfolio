@@ -22,7 +22,7 @@ const Contact = () => {
         contact.serviceId,
         contact.templateId,
         form.current,
-        contact.publicKex
+        contact.publicKey
       )
       .then(
         (result) => {
